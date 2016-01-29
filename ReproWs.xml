@@ -1,0 +1,122 @@
+<TaskerData sr="" dvi="1" tv="4.6b4m">
+   <Profile sr="prof22" ve="2">
+      <cdate>1422482217723</cdate>
+      <clp>true</clp>
+      <edate>1422487691389</edate>
+      <id>22</id>
+      <mid0>23</mid0>
+      <mid1>24</mid1>
+      <nme>ReproducirWsMsj</nme>
+      <App sr="con0" ve="2">
+         <cls0>com.whatsapp.Main</cls0>
+         <flags>2</flags>
+         <label0>WhatsApp</label0>
+         <pkg0>com.whatsapp</pkg0>
+      </App>
+      <State sr="con1" ve="2">
+         <code>125</code>
+      </State>
+   </Profile>
+   <Task sr="task23">
+      <cdate>1422482228718</cdate>
+      <edate>1422487593038</edate>
+      <id>23</id>
+      <nme>Repromsj</nme>
+      <pri>10</pri>
+      <Action sr="act0" ve="7">
+         <code>37</code>
+         <ConditionList sr="if">
+            <Condition sr="c0" ve="3">
+               <lhs>%REPUPDATE</lhs>
+               <op>1</op>
+               <rhs>%DATE</rhs>
+            </Condition>
+         </ConditionList>
+      </Action>
+      <Action sr="act1" ve="7">
+         <code>357</code>
+         <Str sr="arg0" ve="3">%REPFOLDERS</Str>
+      </Action>
+      <Action sr="act10" ve="7">
+         <code>39</code>
+         <Str sr="arg0" ve="3">%REPTMP</Str>
+         <Str sr="arg1" ve="3">%REPFILES()</Str>
+      </Action>
+      <Action sr="act11" ve="7">
+         <code>547</code>
+         <Str sr="arg0" ve="3">%REPFILE</Str>
+         <Str sr="arg1" ve="3">%REPTMP</Str>
+         <Int sr="arg2" val="0" />
+         <Int sr="arg3" val="0" />
+      </Action>
+      <Action sr="act12" ve="7">
+         <code>40</code>
+      </Action>
+      <Action sr="act13" ve="7">
+         <code>445</code>
+         <Str sr="arg0" ve="3">%REPFILE</Str>
+         <Int sr="arg1" val="0" />
+         <Int sr="arg2" val="1" />
+         <Int sr="arg3" val="0" />
+      </Action>
+      <Action sr="act14" ve="7">
+         <code>357</code>
+         <Str sr="arg0" ve="3">%REPFILES</Str>
+      </Action>
+      <Action sr="act2" ve="7">
+         <code>412</code>
+         <Str sr="arg0" ve="3">WhatsApp/Media/WhatsApp Voice Notes</Str>
+         <Str sr="arg1" ve="3" />
+         <Int sr="arg2" val="1" />
+         <Int sr="arg3" val="0" />
+         <Str sr="arg4" ve="3">%REPFOLDERS</Str>
+      </Action>
+      <Action sr="act3" ve="7">
+         <code>39</code>
+         <Str sr="arg0" ve="3">%REPTMP</Str>
+         <Str sr="arg1" ve="3">%REPFOLDERS()</Str>
+      </Action>
+      <Action sr="act4" ve="7">
+         <code>547</code>
+         <Str sr="arg0" ve="3">%REPFOLDER</Str>
+         <Str sr="arg1" ve="3">%REPTMP</Str>
+         <Int sr="arg2" val="0" />
+         <Int sr="arg3" val="0" />
+      </Action>
+      <Action sr="act5" ve="7">
+         <code>40</code>
+      </Action>
+      <Action sr="act6" ve="7">
+         <code>357</code>
+         <Str sr="arg0" ve="3">%REPFOLDERS</Str>
+      </Action>
+      <Action sr="act7" ve="7">
+         <code>547</code>
+         <Str sr="arg0" ve="3">%REPUPDATE</Str>
+         <Str sr="arg1" ve="3">%DATE</Str>
+         <Int sr="arg2" val="0" />
+         <Int sr="arg3" val="0" />
+      </Action>
+      <Action sr="act8" ve="7">
+         <code>38</code>
+      </Action>
+      <Action sr="act9" ve="7">
+         <code>412</code>
+         <Str sr="arg0" ve="3">%REPFOLDER</Str>
+         <Str sr="arg1" ve="3">*.aac</Str>
+         <Int sr="arg2" val="1" />
+         <Int sr="arg3" val="0" />
+         <Str sr="arg4" ve="3">%REPFILES</Str>
+      </Action>
+   </Task>
+   <Task sr="task24">
+      <cdate>1422486841124</cdate>
+      <edate>1422486862021</edate>
+      <id>24</id>
+      <nme>Reprostop</nme>
+      <Action sr="act0" ve="7">
+         <code>449</code>
+         <Int sr="arg0" val="0" />
+      </Action>
+   </Task>
+</TaskerData>
