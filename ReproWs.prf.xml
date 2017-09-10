@@ -103,7 +103,7 @@
       <Action sr="act9" ve="7">
          <code>412</code>
          <Str sr="arg0" ve="3">%REPFOLDER</Str>
-         <Str sr="arg1" ve="3">*.aac</Str>
+         <Str sr="arg1" ve="3">*.opus</Str>
          <Int sr="arg2" val="1" />
          <Int sr="arg3" val="0" />
          <Str sr="arg4" ve="3">%REPFILES</Str>
